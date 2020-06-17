@@ -61,6 +61,14 @@ body {
   padding: 5px 10px;
   background-color: lightseagreen;
 }
+.edit-button {
+  margin-top: 5%;
+  background-color: yellow;
+}
+.delete-button {
+  margin-top: 10%;
+  background-color: red;
+}
 .save-button:hover {
   background-color: green;
   color: white;
