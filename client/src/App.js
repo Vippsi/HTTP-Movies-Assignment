@@ -9,7 +9,7 @@ import UpdateMovie from "./Movies/UpdateMovie";
 const App = () => {
   const [savedList, setSavedList] = useState([]);
   const [movieList, setMovieList] = useState([]);
-
+// added to make new commit
   const getMovieList = () => {
     axios
       .get("http://localhost:5000/api/movies")
